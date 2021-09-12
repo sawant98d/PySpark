@@ -110,3 +110,10 @@
 -  It will create a new RDD
 -  rdd.groupByKey()
 -  mapValues(list) are usually used to get the group data
+
+## reduceByKey()
+- reduceByKey() is used to combined data based on keys in RDD
+- for reduceByKey() to work properly the data must be in the format of (k,v), (k,v), (k2,v), (k2,v)
+-  - Example : ("Apple",1), ("Ball",1), ("Apple",1)
+-  It will create new RDD
+-  rdd.reduceByKey(lambda x,y:x+y)
