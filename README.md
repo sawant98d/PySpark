@@ -102,3 +102,11 @@
 - It will create new RDD
 - rdd.distinct()
 - https://github.com/sawant98d/PySpark/blob/master/rdd_distinct.ipynb
+
+## groupByKey()
+- groupByKey() is used to create group based on Keys in RDD
+- For groupByKey to work properly the data must be in the format of (k,v), (k,v), (k2,v), (k2,v)
+-  - Example ("Apple",1), ("Ball",1), ("Apple",1)
+-  It will create a new RDD
+-  rdd.groupByKey()
+-  mapValues(list) are usually used to get the group data
