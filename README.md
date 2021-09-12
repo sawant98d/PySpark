@@ -84,6 +84,7 @@
 - It will create new RDD
 - rdd.flatMap(lambda x:x.split()) 
 - https://github.com/sawant98d/PySpark/blob/master/flat_map.py
+- https://github.com/sawant98d/PySpark/blob/master/flat_map.ipynb
 
 ## filter()
 - Filter is used to remove the elements from the RDD
@@ -100,4 +101,4 @@
 - Distinct is used to get the distinct elements in RDD
 - It will create new RDD
 - rdd.distinct()
-
+- https://github.com/sawant98d/PySpark/blob/master/rdd_distinct.ipynb
